@@ -1,7 +1,8 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
-element.innerHTML='Hello, Tanmai Sir!';
+ element.innerHTML='Hello, Tanmai Sir!';
+
 var img= document.getElementById('madi');
-img.onclick = function () {
-    img.style.marginLeft="100px";
+ img.onclick = function () {
+    img.style.marginLeft='100px';
 };
